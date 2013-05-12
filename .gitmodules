@@ -1,0 +1,3 @@
+[submodule "std-modules"]
+	path = std-modules
+	url = git://github.com/dsnopek/puppet-std-modules.git
