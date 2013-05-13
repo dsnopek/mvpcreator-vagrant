@@ -1,3 +1,6 @@
 [submodule "std-modules"]
 	path = std-modules
 	url = git://github.com/dsnopek/puppet-std-modules.git
+[submodule "modules/mvpcreator"]
+	path = modules/mvpcreator
+	url = git://github.com/dsnopek/puppet-mvpcreator.git
