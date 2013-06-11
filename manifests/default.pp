@@ -14,6 +14,8 @@ import "modules.pp"
 #include aegir::queue_runner
 
 include mvpcreator
+include mvpcreator::aptrepo
+include mvpcreator::aptrepo::devtools
 
 class {'mvpcreator::webserver':
   aegir_url => 'panel.mvpcreator.dev',
