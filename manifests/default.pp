@@ -29,3 +29,6 @@ class {'mvpcreator::aegir_ftp':
   aegir_db_name => 'panelmvpcreatord',
 }
 
+# Enable the 'continuous integration' environment
+include mvpcreator::ci
+
